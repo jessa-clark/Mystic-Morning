@@ -47,9 +47,9 @@ General Assembly Project #1
    5. Day 5 - IF ALL CAUGHT UP and DONE with initial project and working on BONUS: Design day for second API, final touches. Deploy site to Surge and update the read.me file. 
 9. **Priority Matrix:** *A graph of your intended areas of development (Pseudocoding, Design, HTML, CSS, JavaScript, Testing, etc) plotted on an X/Y axis where X represents time to completion and Y represents priority. Use a professional tool or upload a well drawn image using an image hosting site such as Cloudinary or a similar hosting service.* ![1AF9333B-3526-4523-B2DB-5E069ED25B45_1_105_c](https://user-images.githubusercontent.com/84357702/121060203-562deb00-c790-11eb-85f7-541bcde23b03.jpeg)
 10. **Timeframes:** *How long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day. Components should be broken down into a maximum of 3 hours time blocks.*
-   1. Day One: Clone repo, build HTML, CSS and JS framework: 1 hour, Developer notes: 3 hours; Create Vanilla navigation with Text and input box: 2 hours; Finalize design elements: 2 hours;
-   2. Day Two: Create all functions and code needed to make axios request work: I'm allowing the full 8 hours for this. There are several functions and blocks of code needed to do this. 
-   3. Day Three: Flexbox/Grid to properly align: 3 hours; All the rest of my CSS design will take the rest of the day: 5 hours;
-   4. Day Four: Final touches: 3 hours; If I have time, I will intiate the bonus API and develop the code and CSS with that: 5 hours(multiple tasks)
-   5. Day Five: IF DOING BONUS: Final touches= 4 hours; Deploy site to Surge and update the read.me file= 4 hours;
-   6. Weekend: Any finishing touches. ZERO new code. 
+    1. Day One: Clone repo, build HTML, CSS and JS framework: 1 hour, Developer notes: 3 hours; Create Vanilla navigation with Text and input box: 2 hours; Finalize design elements: 2 hours;
+    2. Day Two: Create all functions and code needed to make axios request work: I'm allowing the full 8 hours for this. There are several functions and blocks of code needed to do this. 
+    3. Day Three: Flexbox/Grid to properly align: 3 hours; All the rest of my CSS design will take the rest of the day: 5 hours;
+    4. Day Four: Final touches: 3 hours; If I have time, I will intiate the bonus API and develop the code and CSS with that: 5 hours(multiple tasks)
+    5. Day Five: IF DOING BONUS: Final touches= 4 hours; Deploy site to Surge and update the read.me file= 4 hours;
+    6. Weekend: Any finishing touches. ZERO new code. 
