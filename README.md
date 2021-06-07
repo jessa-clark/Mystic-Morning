@@ -1,6 +1,6 @@
 # Mystic-Morning
 General Assembly Project #1
-1. **App Title:** *The name of your app. <h4> Mystic Mornin* </h4>
+1. **App Title:** *The name of your app. <h4> Mystic Morning* </h4>
 2. **App Description:** *What your app will do.* <p>This app will give you a daily tarot card pull. Start your morning off right and know your fate for the day!</p>
 3. **API:** *The API you are using and the information you plan to get from it.* <p> I am planning on using this API/JSON that I found on gitHub. I was able to get a successful JSON from it. https://github.com/geraldfingburke/plateau-tarot-api</p> 
 4. **API Snippet:** *A sample snippet of JSON from a successful GET request you have made to your API using Postman.*
