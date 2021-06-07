@@ -27,7 +27,7 @@ General Assembly Project #1
       "id": 43
     },
   ```
-5. **Wireframes:** *The proposed layout and design of your app. Create mockups for your views. If your are creating multiple views including both desktop and mobile formats, and consider whether or not you need to account for landscape and portrait orientations. Please use a digital tool to complete your wireframe.*
+5. **Wireframes:** *The proposed layout and design of your app. Create mockups for your views. If your are creating multiple views including both desktop and mobile formats, and consider whether or not you need to account for landscape and portrait orientations. Please use a digital tool to complete your wireframe.*<p>This is a very basic mockup. I plan on having a much prettier page. </p> ![image](https://user-images.githubusercontent.com/84357702/121089573-5ab8ca80-c7b5-11eb-8e55-3745a1d1e756.png)![image](https://user-images.githubusercontent.com/84357702/121090650-e5e69000-c7b6-11eb-8d51-e3c26882b3ec.png)
 6. **MVP:** *A list of features you will need to build in order to meet the Minimum Viable Product. This will be the rubric your project will be graded against.* These are the requirements of the features I will need to build. 
    1. Built with HTML, CSS, and JavaScript.
    2. Use Axios to make a request to an external data source and insert some of the retrieved data on to the DOM.
