@@ -40,6 +40,16 @@ General Assembly Project #1
    1. add an additional API-a horoscope API.
    2. add some type of animation - a wheel of some sort?
 8. **Goals:** *What you plan to accomplish for each day of the project week.*
+    | Day | Priority | Estimated Time | HTML| CSS | Axios | Debugging|Javascript
+    | --- | :---: |  :---: | :---: | :---: | :---: | :---: | :---: |
+    | Tuesday| H | 8hrs|  X | X | X  | X | X |
+    | Wednesday | H | 8hrs|   |  X|   |X  | x  |
+    | Thursday | H | 8hrs|    | x |  | X|  x |
+    | Friday| H | 8hrs|    |  |   |  X|   x|
+    | Saturday | M | 4hrs|   X |  X|   |  |   |
+    | Sunday | M | 0hrs|  | |   |  |   |
+    | Total |  | 36hrs|    |  |   |  |   |
+
    1. Day 1- Clone repo, build HTL, CSS and JS framework. Set up developer notes for step by step instructions. Create Vanilla navigation with Text and input           box. Finalize design elements (text, background elements for page and boxes, pictures, etc.)
    2. Day 2- Create all functions and code needed to make axios request work. Goal by the end of day 2 is to have input from my API showing up on the screen!
    3. Day 3- CSS heavy day (AKA DESIGN DAY!). Use Flexbox/Grid to properly align all items on page. Style the navigation. Style box. Style text on page. Create    back ground elements. Implement responsive design.  
@@ -47,7 +57,24 @@ General Assembly Project #1
    5. Day 5 - IF ALL CAUGHT UP and DONE with initial project and working on BONUS: Design day for second API, final touches. Deploy site to Surge and update the read.me file. NO CODE! 
 9. **Priority Matrix:** *A graph of your intended areas of development (Pseudocoding, Design, HTML, CSS, JavaScript, Testing, etc) plotted on an X/Y axis where X represents time to completion and Y represents priority. Use a professional tool or upload a well drawn image using an image hosting site such as Cloudinary or a similar hosting service.* ![1AF9333B-3526-4523-B2DB-5E069ED25B45_1_105_c](https://user-images.githubusercontent.com/84357702/121060203-562deb00-c790-11eb-85f7-541bcde23b03.jpeg)
 10. **Timeframes:** *How long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day. Components should be broken down into a maximum of 3 hours time blocks.*
-    1. Day One: Clone repo, build HTML, CSS and JS framework: 1 hour, Developer notes: 3 hours; Create Vanilla navigation with Text and input box: 2 hours; Finalize design elements: 2 hours;
+    | Component | Priority | Estimated Time | Time Invested | Actual Time |
+    | --- | :---: |  :---: | :---: | :---: |
+    | Initial HTML setup | H | 1hr|   |  |
+    | Axios set up | H | 3hrs|     |  |
+    | Render results | H | 3hrs|      |  |
+    | Append results | H | 3hrs|  | |
+    | Other JS | H | 3hrs|     |  |
+    | CSS for basic layout | M | 3hrs|     |  |
+    | CSS for results | M | 3hrs|     |  |
+    | Flexbox/Grid align | H | 3hrs |  | |
+    | Image placement | M | 3hrs|     |  |
+    | Media query | H | 3hrs|    |  |
+    | General Research | H | 3hrs|     |  |
+    | Debugging | H | 3hrs|     |  |
+    | Final Touches| H | 2hrs | |
+    | Total | H | 36hrs|    |  |    
+
+1. Day One: Clone repo, build HTML, CSS and JS framework: 1 hour, Developer notes: 3 hours; Create Vanilla navigation with Text and input box: 2 hours; Finalize design elements: 2 hours;
     2. Day Two: Create all functions and code needed to make axios request work: I'm allowing the full 8 hours for this. There are several functions and blocks of code needed to do this. 
     3. Day Three: Flexbox/Grid to properly align: 3 hours; All the rest of my CSS design will take the rest of the day: 5 hours;
     4. Day Four: Final touches: 3 hours; If I have time, I will intiate the bonus API and develop the code and CSS with that: 5 hours(multiple tasks)
