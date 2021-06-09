@@ -14,7 +14,7 @@ const fetchData = async () => {
     // create your array with all the cards as objects
     const tarotArray = response.data.cards;
     results(tarotArray)
-  } catch (error) {
+    } catch (error) {
     console.log(error);
   }
 }
@@ -28,8 +28,9 @@ const fetchData = async () => {
   });
 
   function removeDestiny(){
-    destinyDiv.childNodes.forEach((child) =>
-    child.remove());
+    while(destinyDiv.lastChild) {
+      destinyDiv.removeChild(destinyDiv.lastChild)
+    }
   }
 
 
@@ -43,17 +44,35 @@ function results (tarotArray) {
 }
 
 function displayResults (currentTarotCard) {
-    let nameContainer = document.querySelector('#card-name')
-    let pictureContainer = document.querySelector('#image-container')
-    let meaningContainer = document.querySelector('#card-description')
-    let imageTag = document.createElement('img')
-    imageTag.setAttribute('src' , currentTarotCard.imageURL)
-    pictureContainer.appendChild(imageTag)
+    removeDestiny(); 
+    let nameDiv = document.createElement('div');
+    nameDiv.classList.add('card-name');
+    let nameText = document.createTextNode('Card Name');
+    nameDiv.appendChild(nameText);
+    document.body.appendChild(nameDiv);
 
     let tarotCardName = currentTarotCard.name
-    nameContainer.innerText = tarotCardName
+    nameDiv.innerText = tarotCardName
+    destinyDiv.appendChild(nameDiv)
+
+    let meaningDiv = document.createElement('div')
+    meaningDiv.classList.add('card-meaning');
+    let meaningText = document.createTextNode('Meaning');
+    meaningDiv.appendChild(meaningText);
+    document.body.appendChild(meaningDiv);
 
     let tarotCardMeaning = currentTarotCard.description
-    meaningContainer.innerText = tarotCardMeaning
+    meaningDiv.innerText = tarotCardMeaning
+    destinyDiv.appendChild(meaningDiv)
+
+    let pictureDiv =document.createElement('div')
+    pictureDiv.classList.add('picture');
+    document.body.appendChild(pictureDiv);
+
+    let imageTag = document.createElement('img')
+    imageTag.src = currentTarotCard.imageURL;
+    pictureDiv.appendChild(imageTag)
+    destinyDiv.appendChild(pictureDiv)
+
   
 }
