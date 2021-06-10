@@ -7,21 +7,22 @@ body {
   margin: 0;
   padding: 0;
   background-image: url(images/AdobeStock_354821060.jpeg);
-  background-size:100vh;
-
-
-  
+  background-size:100vh; 
 }
 
 footer {
-  margin: auto;
+
   background:lightyellow;
   text-align: center;
   font-family: 'Rye', cursive;
   font-size: 35px;
-  width: 100vw;
-  height: 5vw;
-  position: top;
+  margin: 0;
+  padding: 20 0 0 20;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 
@@ -34,6 +35,7 @@ form {
   margin: auto;
   width: 50vw;
   background: lightpink;
+  
   
 }
 
@@ -58,6 +60,7 @@ nav {
   position: top;
    
 }
+
 
 .card-meaning {
   text-align: center;
@@ -116,6 +119,7 @@ nav {
 #destiny {
   background-color: lightpink;
   margin: auto;
+  padding-bottom: 100px;
   display: flex;
   flex-direction: column;
   width: 50vw;
@@ -145,7 +149,7 @@ nav {
 
 }
 @media screen and (max-width: 600px) {
-  #question, #headline, form, .card-name, .greeting, #destiny {
+  #question, #headline, form, .card-name, .greeting, #destiny, header, footer {
     width: 100%;
   }
   .card-meaning {
