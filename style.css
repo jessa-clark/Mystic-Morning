@@ -6,13 +6,25 @@ font-family: 'Rye', cursive; */
 body {
   margin: 0;
   padding: 0;
+  background-image: url(images/AdobeStock_354821060.jpeg);
+  background-size:100vh;
+
 
   
 }
 
-/* button {
-  padding: 10px 25px;
-} */
+footer {
+  margin: auto;
+  background:lightyellow;
+  text-align: center;
+  font-family: 'Rye', cursive;
+  font-size: 35px;
+  width: 100vw;
+  height: 5vw;
+  position: top;
+}
+
+
 form {
   display: flex;
   flex-direction: column;
@@ -20,6 +32,9 @@ form {
   align-items: center;
   text-align: center;
   margin: auto;
+  width: 50vw;
+  background: lightpink;
+  
 }
 
 header {
@@ -38,7 +53,7 @@ nav {
   background:lightyellow;
   text-align: center;
   font-family: 'Rye', cursive;
-  font-size: 20px;
+  font-size: 35px;
   width: 100%;
   position: top;
    
@@ -47,26 +62,32 @@ nav {
 .card-meaning {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
+  font-size: 30px;
   width: 50vw;
 }
 
 .card-name {
   background: orange;
-  width: 27vw;
+  width: 50vw;
   text-align: center;
   font-family: 'Rye', cursive;
   font-size: 35px;
   padding: auto;
-  margin-top: 50px;
+  /* margin-top: 50px; */
 }
 
 .greeting {
-  margin: 50px auto auto auto;
+  margin: 0 auto 0 auto;
   height: 375px;
-  text-align: center;
-  color: black;
-  background: linear-gradient(lightblue, lightyellow);
+  width: 50vw;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  background-color: #b5b8c7;
+  color: whitesmoke;
+  font-weight: bolder;
+  font-size: larger;
+  background-size: cover;
   font-family: 'Roboto Slab', serif;
 }
 
@@ -76,15 +97,29 @@ nav {
 }
 
 #click {
-  font-family: 'Montserrat', sans-serif;
-  /* position: top; */
+  font-family: 'Roboto Slab', serif;
+  font-size: 16px;
+  padding: 16px 32px;
+  margin-bottom: 30px;
+  background-color: lightblue;
+  border: 2px solid darkblue;
+  border-radius: 100px;
+  text-transform: uppercase;
+  
+}
+
+#click:hover {
+  background-color: seagreen;
+  color: white;
 }
 
 #destiny {
+  background-color: lightpink;
   margin: auto;
   display: flex;
   flex-direction: column;
-  justify-content:space-evenly;
+  width: 50vw;
+  justify-content: space-evenly;
   align-items: center;
   text-align: center;
   row-gap: 50px;
@@ -100,7 +135,7 @@ nav {
 #question {
   font-family: 'Montserrat', sans-serif;
   border: solid 4px black;
-  width: 700px;
+  width: 49vw;
   padding: 12px 25px;
   margin: 10px 0 0 0;
   box-sizing: border-box;
@@ -110,8 +145,17 @@ nav {
 
 }
 @media screen and (max-width: 600px) {
-  #question, #headline, form, .card-name, .greeting {
+  #question, #headline, form, .card-name, .greeting, #destiny {
     width: 100%;
   }
+  .card-meaning {
+    font-size: 20px;
+    width: 75vw;
+  }
+  nav {
+    font-size: 30px;
+  }
 }
+
+
 
