@@ -1,32 +1,22 @@
-/* font-family: 'Montserrat', sans-serif;
-font-family: 'Rye', cursive; */
+/* font-family: 'Amatic SC', cursive;
+font-family: 'Roboto', sans-serif; */
 /* https://stackoverflow.com/questions/55224589/document-createelementdiv-with-a-class/55224626 */
 /* font-family: 'Roboto Slab', serif; */
 
 body {
   margin: 0;
   padding: 0;
-  background-image: url(images/AdobeStock_354821060.jpeg);
-  background-size:100vh; 
-}
+  
+  background-image: url(images/AdobeStock_306903024.jpeg);
 
-footer {
-
-  background:lightyellow;
-  text-align: center;
-  font-family: 'Rye', cursive;
-  font-size: 35px;
-  margin: 0;
-  padding: 20 0 0 20;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   
 }
 
 
+
+
 form {
+  border-style: solid;
   display: flex;
   flex-direction: column;
   justify-content:space-evenly;
@@ -34,7 +24,8 @@ form {
   text-align: center;
   margin: auto;
   width: 50vw;
-  background: lightpink;
+  background: black;
+  color: white;
   
   
 }
@@ -51,11 +42,14 @@ header {
 }
 
 nav {
-  margin: auto;
-  background:lightyellow;
+  margin-bottom: 50px;
+  color: black;
+  font-variant: small-caps;
+  background-size: 100vh;
+  background: url(images/logo.png) left center no-repeat, url(images/logo.png) right center no-repeat white;
   text-align: center;
-  font-family: 'Rye', cursive;
-  font-size: 35px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 50px;
   width: 100%;
   position: top;
    
@@ -64,19 +58,21 @@ nav {
 
 .card-meaning {
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 30px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 40px;
   width: 50vw;
+  color: whitesmoke;
 }
 
 .card-name {
-  background: orange;
+  border-style: solid;
+  border-color: white;
+  background: white;
   width: 50vw;
   text-align: center;
   font-family: 'Rye', cursive;
   font-size: 35px;
   padding: auto;
-  /* margin-top: 50px; */
 }
 
 .greeting {
@@ -90,34 +86,34 @@ nav {
   color: whitesmoke;
   font-weight: bolder;
   font-size: larger;
-  background-size: cover;
+  background-size: contain;
   font-family: 'Roboto Slab', serif;
 }
 
 .picture {
   text-align: center;
-  /* padding: 50px; */
+  
 }
 
 #click {
-  font-family: 'Roboto Slab', serif;
-  font-size: 16px;
+  font-family: 'Amatic SC', cursive;
+  font-size: 25px;
   padding: 16px 32px;
   margin-bottom: 30px;
-  background-color: lightblue;
-  border: 2px solid darkblue;
+  background-color: white;
+  border: 2px solid white;
   border-radius: 100px;
   text-transform: uppercase;
+  
   
 }
 
 #click:hover {
-  background-color: seagreen;
+  background-color: lightpink;
   color: white;
 }
 
 #destiny {
-  background-color: lightpink;
   margin: auto;
   padding-bottom: 100px;
   display: flex;
@@ -130,14 +126,14 @@ nav {
 }
 
 #headline {
-  font-family: 'Roboto Slab', serif;
-  font-size:20px;
+  font-family: 'Amatic SC', cursive;
+  font-size:40px;
 }
 
 
 
 #question {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   border: solid 4px black;
   width: 49vw;
   padding: 12px 25px;
@@ -146,19 +142,31 @@ nav {
   text-align: center;
   align-items: center;
   
+  
 
 }
+
+
+
+
 @media screen and (max-width: 600px) {
   #question, #headline, form, .card-name, .greeting, #destiny, header, footer {
     width: 100%;
   }
   .card-meaning {
-    font-size: 20px;
+    font-size: 40px;
     width: 75vw;
   }
   nav {
-    font-size: 30px;
+    font-size: 40px;
+    background-color: white;
+    background-image: none;
+   
   }
+  form {
+    border-style: none;
+  }
+
 }
 
 

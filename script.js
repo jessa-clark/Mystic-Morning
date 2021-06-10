@@ -6,6 +6,10 @@ const fortuneBtn = document.getElementById('click');
 const inputQuestion = document.getElementById('question');
 const destinyDiv = document.getElementById('destiny');
 
+        
+
+
+
 // make an axios call and console log the result
 const fetchData = async () => {
   try {
