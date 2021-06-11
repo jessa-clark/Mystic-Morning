@@ -78,5 +78,7 @@ function displayResults (currentTarotCard) {
     pictureDiv.appendChild(imageTag)
     destinyDiv.appendChild(pictureDiv)
 
+
+
   
 }

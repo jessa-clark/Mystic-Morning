@@ -42,11 +42,11 @@ nav {
   margin-bottom: 50px;
   color: black;
   font-variant: small-caps;
-  background-size: 100vh;
+  background-size: 80vh;
   background: url(images/logo.png) left center no-repeat, url(images/logo.png) right center no-repeat white;
   text-align: center;
   font-family: 'Amatic SC', cursive;
-  font-size: 50px;
+  font-size: 60px;
   width: 100vw;
   position: top;
    
@@ -156,7 +156,7 @@ nav {
     width: 75vw;
   }
   nav {
-    font-size: 40px;
+    font-size: 20px;
     background-color: white;
     background-image: none;
    
@@ -166,6 +166,76 @@ nav {
   }
 
 }
+
+@media only screen and (max-width: 768px) {
+  #question, #headline, form, .card-name, .greeting, #destiny, header, footer, nav {
+    width: 100%;
+  }
+  nav {
+    font-size: 80px;
+    background-color: white;
+    /* background-image: none; */
+    background-image: url(images/logo.png) left center;
+    background-size: 15vh;
+    width: 100vw;
+    
+    
+  }
+  form {
+    border-style: none;
+    height: 80vh;
+  }
+  
+  #question {
+    font-size: 50px;
+  }
+  
+  #headline {
+    font-size: 50px;
+  }
+  
+  #click {
+    font-size: 50px;
+  }
+  
+  .card-meaning {
+    font-size: 50px;
+    width: 75vw;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  #question, #headline, form, .card-name, .greeting, #destiny, header, footer, nav {
+    width: 100%;
+  }
+  nav {
+    font-size: 75px;
+    background-color: white;
+    background-image: url(images/logo.png) center;
+    background-size: 25vh;
+    align-items: center;
+    width: 100vw;
+   
+  }
+
+  form {
+    height: 100vh;
+    border-style: none; 
+  }
+  .card-meaning {
+    font-size: 40px;
+    width: 75vw;
+  } 
+
+  #question {
+    font-size: 40px;
+  }
+
+  #click {
+    font-size: 50px;
+  }
+}
+
 
 
 
