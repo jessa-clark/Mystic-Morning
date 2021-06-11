@@ -59,22 +59,22 @@ General Assembly Project #1
 10. **Timeframes:** *How long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day. Components should be broken down into a maximum of 3 hours time blocks.*
     | Component | Priority | Estimated Time | Time Invested | Actual Time |
     | --- | :---: |  :---: | :---: | :---: |
-    | Initial HTML setup | H | 1hr|   |  |
-    | Axios set up | H | 3hrs|     |  |
-    | Render results | H | 3hrs|      |  |
-    | Append results | H | 3hrs|  | |
-    | Other JS | H | 3hrs|     |  |
-    | CSS for basic layout | M | 3hrs|     |  |
-    | CSS for results | M | 3hrs|     |  |
-    | Flexbox/Grid align | H | 3hrs |  | |
-    | Image placement | M | 3hrs|     |  |
-    | Media query | H | 3hrs|    |  |
-    | General Research | H | 3hrs|     |  |
-    | Debugging | H | 3hrs|     |  |
-    | Final Touches| H | 2hrs | |
-    | Total | H | 36hrs|    |  |    
+    | Initial HTML setup | H | 1hr|  1hr | 1hr |
+    | Axios set up | H | 3hrs| 1hr | 1hr | 
+    | Render results | H | 3hrs| 3hrs | 3hrs | 
+    | Append results | H | 3hrs| 3hrs | 3hrs | 
+    | Other JS | H | 3hrs| 3hrs | 3hrs |
+    | CSS for basic layout | M | 3hrs|  3hrs   | 3hr |
+    | CSS for results | M | 3hrs|  6hrs   | 6hrs |
+    | Flexbox/Grid align | H | 3hrs | 4hrs | 4hrs |
+    | Image placement | M | 3hrs|  3hrs   | 3hrs |
+    | Media query | H | 3hrs|  3hrs  | 3hrs |
+    | General Research | H | 3hrs|  6hrs   | 6hrs |
+    | Debugging | H | 3hrs|  4hrs   | 4hrs |
+    | Final Touches| H | 2hrs | 3hrs | 3hrs|
+    | Total | H | 36hrs|  43hrs  | 43hrs |     
 
-1. Day One: Clone repo, build HTML, CSS and JS framework: 1 hour, Developer notes: 3 hours; Create Vanilla navigation with Text and input box: 2 hours; Finalize design elements: 2 hours;
+    1. Day One: Clone repo, build HTML, CSS and JS framework: 1 hour, Developer notes: 3 hours; Create Vanilla navigation with Text and input box: 2 hours; Finalize design elements: 2 hours;
     2. Day Two: Create all functions and code needed to make axios request work: I'm allowing the full 8 hours for this. There are several functions and blocks of code needed to do this. 
     3. Day Three: Flexbox/Grid to properly align: 3 hours; All the rest of my CSS design will take the rest of the day: 5 hours;
     4. Day Four: Final touches: 3 hours; If I have time, I will intiate the bonus API and develop the code and CSS with that: 5 hours(multiple tasks)
