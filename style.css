@@ -156,19 +156,30 @@ nav {
     width: 75vw;
   }
   nav {
-    font-size: 15px;
     background-color: white;
     background-image: none;
    
   }
+  header {
+    font-size: 5px;
+    padding-top: 3px;
+  }
   form {
     border-style: none;
     height: 100vh;
+    margin-bottom: 15px;
+    font: 8px;
+    padding-bottom: 80px;
   }
 
   #headline {
     font-size: 20px;
   }
+
+  #question {
+    font-size: 5px;
+  }
+
 
 }
 
