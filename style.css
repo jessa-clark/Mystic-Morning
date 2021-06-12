@@ -156,7 +156,7 @@ nav {
     width: 75vw;
   }
   nav {
-    font-size: 20px;
+    font-size: 15px;
     background-color: white;
     background-image: none;
    
@@ -164,6 +164,10 @@ nav {
   form {
     border-style: none;
     height: 100vh;
+  }
+
+  #headline {
+    font-size: 20px;
   }
 
 }
