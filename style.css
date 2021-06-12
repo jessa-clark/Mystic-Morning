@@ -163,6 +163,7 @@ nav {
   }
   form {
     border-style: none;
+    height: 100vh;
   }
 
 }
@@ -183,7 +184,7 @@ nav {
   }
   form {
     border-style: none;
-    height: 80vh;
+    height: 100vh;
   }
   
   #question {
