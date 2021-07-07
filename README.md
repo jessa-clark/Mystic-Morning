@@ -1,6 +1,6 @@
 # Mystic-Morning
 General Assembly Project #1
-https://mystic-morning.netlify.app/1. 
+<p>https://mystic-morning.netlify.app/1.</p>
 **App Title:** *The name of your app. <h4> Mystic Morning* </h4>
 2. **App Description:** *What your app will do.* <p>This app will give you a daily tarot card pull. Start your morning off right and know your fate for the day!</p>
 3. **API:** *The API you are using and the information you plan to get from it.* <p> I am planning on using this API/JSON that I found on gitHub. I was able to get a successful JSON from it. https://github.com/geraldfingburke/plateau-tarot-api</p> 
