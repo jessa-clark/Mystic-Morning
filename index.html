@@ -1,9 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" prefix=”og: http://ogp.me/ns#">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+
+
+LinkedIn Featured Link Preview Images Not Showing Up?? Try this.
+Scott Lingner
+Scott Lingner
+
+Apr 30, 2020·3 min read
+
+
+
+
+Are you a React developer with a few projects that you want to show off on LinkedIn? Have you tried to simply type in your link and are met with this empty grey box?
+Screenshot of a LinkedIn link preview not displaying the image we’re looking for.
+This is what happened to me, and I didn’t completely understand what to do after reading through LinkedIn’s recommendations.
+My projects were all based in React, so I’m going to show how I went about solving the problem through that library.
+After I deployed my project, a public file was built containing the index.html, manifest.json, 🤖s.txt, etc.
+
+*more on svg favicons here if interested.
+We’re going to focus on the index.html file.
+
+Add this prefix attribute in your html:
+<html lang=”en” prefix=”og: http://ogp.me/ns#">
+Here’s a great explanation of the prefix tag and why it is relevant.
+Also, add these 5 meta tags:
+<meta 
+  property=”og:title”
+  content=”Example Title” 
+/>
+<meta 
+  name=”image” 
+  property=”og:image” 
+  content=”%PUBLIC_URL%/publicimage.png
+/>
+<meta 
+  name=”author” 
+  content=”Example Author” 
+/>
+<meta 
+  property=”og:description” 
+  content=”Example Description“
+/>
+<meta 
+  property=”og:url” 
+  content=”https://example.com" 
+/>
   <link rel="stylesheet" href="style.css" type ="text/css">
   <script src ="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -21,17 +67,15 @@
     </nav>
     
   </header>
-<div class = "app">
+  <div class = "app">
   <form autocomplete="off" method="post" action="">
     <div id="headline"><h2>Brightest Blessings! What does the day hold for you?</h2></div>
     <input type="text" autocomplete="off" id="question" placeholder="Type your question">
     <br></br>
-   <button id="click">Tell Me My Fate!</button>
+  <button id="click">Tell Me My Fate!</button>
   </form>
- 
-  <!-- <section class= "greeting">
-    <h2>Your message for today is:</h2> 
-  </section>  -->
+
+
 
   <div id="destiny">
 
